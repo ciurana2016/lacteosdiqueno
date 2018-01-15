@@ -1,0 +1,35 @@
+/*
+    GLOBAL
+*/
+
+body {
+    color: #1e1e1e;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+// Div que aguanta todo en 1200 px
+div.center {
+    margin: auto;
+    width: 1200px;
+
+    // Movil
+    @media (max-width: 1200px){
+        width: auto;
+    }
+}
+
+button {
+    background: $azul;
+    border-radius: 3px;
+    box-shadow: 0 2px 13px rgba(150, 150, 150, 0.75);
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    padding: 12px 18px;
+    letter-spacing: 1px;
+    transition: all .5s;
+    &:hover{
+        box-shadow: 0 3px 10px rgba(41, 41, 41, 0.88);
+    }
+}

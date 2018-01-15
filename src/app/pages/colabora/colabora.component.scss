@@ -1,0 +1,46 @@
+/*
+    COLABORA
+*/
+
+@import '~sass/variables';
+
+h1 {
+    display: none;
+}
+
+section#carteles {
+    h3, p {
+        margin-bottom: $p;
+    }
+    ul{
+        border-radius: 3px;
+        border: 1px solid lightgrey;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 5px;
+    }
+    li{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        padding: $p/2;
+        width: 33.33%;
+    }
+    a{
+        background: $azul;
+        color: white;
+        display: inline-flex;
+        padding: $p/2;
+    }
+    img{ width: 100%; }
+
+    @media (max-width: 850px) {
+        padding: $p/2;
+        li{ width: 50%; }
+    }
+    @media (max-width: 500px) {
+        li{ width: 100%; }
+    }
+
+}

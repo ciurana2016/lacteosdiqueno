@@ -1,0 +1,31 @@
+/*
+    VIDEO
+*/
+
+@import '~sass/variables';
+
+section#video {
+    background: #f5f5f5; // de lacteosdiquesi 
+}
+
+.center{
+    padding: 34px; // de lacteosdiquesi
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    height: 637px;
+    width: 1132px;
+}
+
+@media (max-width: 1263px) {
+    section#video .center{
+        width: auto;
+        padding: $p/2;
+    }
+    iframe{
+        width: calc(100vw - 20px); 
+        height: 56.25vw;
+    }
+}

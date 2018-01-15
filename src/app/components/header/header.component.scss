@@ -1,0 +1,59 @@
+/*
+    Header y nav
+*/
+
+@import '~sass/variables';
+
+header {
+    color: #232529; // Sacado de lacteosdiquesi
+    margin: $p 0;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+
+nav ul {
+    display: flex;
+
+    li {
+        cursor: pointer;
+        transition: color .5s;
+        margin-right: $p * 2;
+    }
+    li:hover,
+    li.router-link-active {
+        color: $azul;
+    }
+}
+
+h1 {
+    display: none;
+    font-size: 18px;
+}
+
+.social-link {
+    cursor: pointer;
+}
+
+
+// Esconder cosas en el movil
+header {
+    @media (max-width: 850px) {
+
+        margin: $p/2 0;
+
+        #logo img{
+            height: 50px;
+            width: auto;
+        }
+
+        h1 { display: block; }
+
+        nav { margin: 0 $p/2 }
+        nav ul { display: none }
+    }    
+}

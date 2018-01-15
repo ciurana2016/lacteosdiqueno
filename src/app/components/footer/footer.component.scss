@@ -1,0 +1,18 @@
+/*
+    Footer
+*/
+
+@import '~sass/variables';
+
+.cookies{
+    color: grey;
+    font-size: 15px;
+    font-weight: 300;
+    padding: $p;
+    p:first-child {
+        margin-bottom: $p/2;
+    }
+    a {
+        color: $azul;
+    }
+}

@@ -1,0 +1,22 @@
+<h1>
+  COLABORA
+</h1>
+
+<div class="center">
+  <section id="carteles">
+    <h3>
+      Carteles
+    </h3>
+    <p>
+      Imprime los carteles y difunde la verdad por tu barrio.
+    </p>
+    <ul>
+      <li *ngFor="let p of posters">
+        <img src="assets/carteles/CARTEL_{{p}}.png" alt="cartel {{p}}">
+        <a href="assets/carteles/CARTEL_{{p}}.png" target="_blank" download>
+          Descargar
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
