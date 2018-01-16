@@ -13,9 +13,10 @@ import { VideoComponent } from './components/video/video.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { VideosComponent } from './pages/videos/videos.component';
 import { ColaboraComponent } from './pages/colabora/colabora.component';
-
+import { LosnodeloslacteosComponent } from './pages/losnodeloslacteos/losnodeloslacteos.component';
 
 import { SafePipe } from './pipes/safe.pipe';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SafePipe } from './pipes/safe.pipe';
     FooterComponent,
     VideosComponent,
     SafePipe,
-    ColaboraComponent
+    ColaboraComponent,
+    LosnodeloslacteosComponent
   ],
   imports: [
     BrowserModule,

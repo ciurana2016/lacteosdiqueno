@@ -1,0 +1,44 @@
+/*
+    LOS NO DE LOS LACTEOS
+*/
+
+@import '~sass/variables';
+
+img.titular {
+    border-bottom: 5px solid $azul;
+}
+
+section#losno .center{
+
+    display: flex;
+    margin-top: $p*2;
+    margin-bottom: $p*2;
+    @media (max-width: 850px) { margin-top: 0px }
+
+    aside.imagenes{
+        width: 325px;
+        @media (max-width: 850px) { display: none }
+    }
+
+    ul#listados {
+        padding-left: $p*4;
+        margin-top: $p;
+        .listado {
+            margin-bottom: $p*2;
+        }
+        .listado h3 {
+            color: $azul;
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: $p;
+        }
+        .listado li{
+            list-style-type: circle;
+            margin-bottom: $p/2;
+        }
+        @media (max-width: 850px) {
+            padding: 0 $p/2;
+        }
+    }
+
+}
