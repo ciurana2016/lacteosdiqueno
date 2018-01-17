@@ -5,7 +5,7 @@
 @import '~sass/variables';
 
 .cookies{
-    color: grey;
+    // color: grey; -- usabilidad en audit google
     font-size: 15px;
     font-weight: 300;
     padding: $p;
@@ -13,6 +13,6 @@
         margin-bottom: $p/2;
     }
     a {
-        color: $azul;
+        color: darken($azul, 10); // -- usabilidad en audit google
     }
 }

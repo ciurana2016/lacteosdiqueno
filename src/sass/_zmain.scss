@@ -20,7 +20,7 @@ div.center {
 }
 
 button {
-    background: $azul;
+    background: darken($azul, 10); // -- usabilidad en audit google
     border-radius: 3px;
     box-shadow: 0 2px 13px rgba(150, 150, 150, 0.75);
     color: white;
