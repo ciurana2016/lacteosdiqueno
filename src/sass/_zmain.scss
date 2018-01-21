@@ -33,3 +33,24 @@ button {
         box-shadow: 0 3px 10px rgba(41, 41, 41, 0.88);
     }
 }
+
+// Offline
+#offlineToast{
+    align-items: center;
+    bottom: 0px;
+    display: flex;
+    padding: $p;
+    position: fixed;
+    justify-content: center;
+    left: 0px;
+    width: calc(100% - #{$p*2});
+    z-index: 9999;
+    p{
+        background: rgba(0,0,0,.8);
+        border-radius: 20px;
+        bottom: 0px;
+        color: white;
+        font-weight: 300;
+        padding: $p/2 $p*2;       
+    }
+}

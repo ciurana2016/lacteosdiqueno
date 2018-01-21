@@ -8,3 +8,10 @@
 
 <!-- Footer -->
 <app-footer></app-footer>
+
+<!-- Online / Offline observable -->
+<div [@fade] id="offlineToast" *ngIf="!onlineToggle">
+  <p>
+    No tienes conexión a internet
+  </p>
+</div>
