@@ -10,7 +10,7 @@ import { NgXCookies } from 'ngx-cookies';
 })
 export class VideoComponent implements OnInit {
 
-  homeVideoUrl = 'https://www.youtube-nocookie.com/embed/rx0hTvDKsQU?rel=0&amp;showinfo=0&autoplay=';
+  homeVideoUrl = 'https://www.youtube-nocookie.com/embed/ybNH-v7Pxns?rel=0&amp;showinfo=0&autoplay=';
 
   // Url de video a insertar
   @Input() videoUrl: string;
