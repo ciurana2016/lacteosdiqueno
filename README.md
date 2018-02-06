@@ -18,3 +18,23 @@ Usando live-server
     npm run static-serve
 ```
 
+## Montar en produccion
+Pasos a seguir para montar node y todos los paquetes necesarios (sudo alomejor)
+```
+# NODE
+curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
+sudo apt-get install -y nodejs
+# ANGULAR CLI
+npm install -g @angular/cli
+```
+Bajo la carpeta del proyecto:
+```
+npm install --no-optional
+npm install ngx-cookies
+```
+
+__Para actualizar version de la web ejecutar:__
+```
+sh update_page.sh
+```
+
